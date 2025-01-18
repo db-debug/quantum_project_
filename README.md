@@ -14,22 +14,23 @@ This project simulates the BB84 Quantum Key Distribution protocol using Qiskit. 
 ## Installation:
 1. Clone the repository:
    
-   git clone git repo
+   git clone https://github.com/db-debug/quantum_project_
+
    cd quantum_key_distribution
   
 
-2. Set up a Python environment (optional but recommended):
+3. Set up a Python environment (optional but recommended):
   
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
   
 
-3. Install dependencies:
+4. Install dependencies:
    
    pip install -r requirements.txt
 
 
-4. Ensure that Qiskit and the AerSimulator backend are installed:
+5. Ensure that Qiskit and the AerSimulator backend are installed:
    
    pip install qiskit
    
